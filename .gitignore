@@ -1,0 +1,45 @@
+# 로컬 설정 (데이터 경로)
+.env
+.env.*
+!.env.example
+/docs/pipeline.md
+
+# 실행 결과물 — 회사 에셋이 담긴 렌더/추출물은 절대 커밋하지 않는다 (NDA)
+out/
+extract-runs/
+*.exr
+*.png
+*.jpg
+*.tif
+*.psd
+*.glb
+*.gltf
+*.fbx
+*.bytes
+*.pdf
+*.nda
+*.unitypackage
+*.asset
+*.prefab
+*.meta
+*.blend
+
+# 혹시 데이터 폴더를 복사해 넣는 실수 방지
+package/
+Asset/
+assets/
+Assets/
+**/assets/
+**/Assets/
+maps/
+tilesets/
+models/
+textures/
+
+# 환경
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,3 @@
+numpy>=1.26,<3
+Pillow>=10,<12
+OpenEXR>=3.3,<4
