@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 /docs/pipeline.md
+/tests/fixtures/.gitkeep
 
 # 실행 결과물 — 회사 에셋이 담긴 렌더/추출물은 절대 커밋하지 않는다 (NDA)
 out/
